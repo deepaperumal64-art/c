@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choco Mart - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="shop-header">
+    <div>
+        <h1>🍫 Choco Mart</h1>
+        <p>Your Shopping Cart 🛒</p>
+    </div>
+
+    <div class="header-actions">
+        <button onclick="window.location.href='products.html'">
+            Continue Shopping
+        </button>
+        <button onclick="logout()">Logout</button>
+    </div>
+</header>
+
+<div class="cart-page">
+
+    <h2>🛒 Your Cart</h2>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-summary" id="cartSummary"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
